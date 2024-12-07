@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ad9d35;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    border: 1px solid #3f1212;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #762929;
+    border-radius: 50px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin: 20px 0;
+    color: #3f1212;
+}
+
+.card p {
+    color: #555;
+    margin: 15px 0;
+}
+
+.card .icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.twitter .icon {
+    color: #1DA1F2;
+}
+
+.instagram .icon {
+    color: #000000;
+}
+
+.youtube .icon {
+    color: #FF0000;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.twitter .button {
+    background-color: #1DA1F2;
+}
+
+
+.instagram .button {
+    background-color: rgb(97, 164, 226);
+    color: #E1306C;
+}
+
+.youtube .button {
+    background-color: #FF0000;
+}

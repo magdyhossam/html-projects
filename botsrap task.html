@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Website</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            nav{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 15p
+            }
+        </style>
+    </head>
+    <body>
+        <!--nav bar-->
+        <nav class="navbar-expand-lg navbar-dark-bg Primary">
+            <a class="navbar-brand" href="#">my website </a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"> <a class="nav-link" href="#"> Home</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#"> About</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#"> Services</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#"> Contact</a></li>
+            </ul>
+        </nav>
+        <!--card section-->
+        <div class="container mt-4">
+            <div class="row">
+                <!--cad 1-->
+                <div class=" col-md-4">
+                    <div class="card">
+                        <img src="./card1.jpg" class="card-img-top" alt="Image 1">
+                        <div class="card">
+                            <h5 class="card-title"> card 1</h5>
+                            <p class="card-text"> thise is a samble card with some content.</p>
+                            <a href="#" class="btn btn-primary"> Learn more </a>
+                        </div>    
+                    </div>
+                </div>
+                        <!--card 2-->
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="card2.jpg" class="card-img-top" alt="Image 2">
+                                <div class="card-body">
+                                    <h5 class="card-title"> card2</h5>
+                                    <p class="card-text">Another sample card with some content.</p>
+                        <a href="#" class="btn btn-success">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <!-- card 3 -->
+            <div class="col-md-4">
+                <div class="card-text-white bg-info">
+                    <img src="card3.jpg" class="card-img-top" alt="Image 3">
+                    <div class="card-body">
+                        <h5 class="card-title"> card3</h5>
+                        <p class="card-text">A third sample card with some content.</p>
+                        <a href="#" class="btn btn-danger">Discover</a>
+                    </div>
+                </div>
+            </div>
+            <!-- card 4 -->
+             <div class="col-md-4">
+                <div class="card-text-white bg-info">
+                    <img src="card4.webp" class="card-img-top" alt="Image 4">
+                    <div class="card-body">
+                        <h5 class="card-title"> card4</h5>
+                        <p class="card-text">A fourth sample card with some content.</p>
+                        <a href="#" class="btn btn-danger">Discover</a>
+                    </div>
+                </div>
+             </div>
+            <!-- card5 -->
+             <div class="col-md-4">
+                <div class="card-text card-text-white bg-info">
+                    <img src="card5.jpg" class="card-img-top" alt="Image 5">
+                    <div class="card-body">
+                        <h5 class="card-title"> card5</h5>
+                        <p class="card-text">A fourth sample card with some content.</p>
+                        <a href="#" class="btn btn-danger">Discover</a>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h1>My Website</h1>
+        <p>Welcome to my website. This is a simple website that uses Bootstrap.</p>
+        <a href="bootstrap_session.php" class="btn btn-primary">Go to the next page</a>
+
+    </div>
+    <!-- Bootstrap JavaScript dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        label{
+            display: block;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text">
+        <label for="Email"> Email:</label>
+        <input type="email">
+        <label for="password"> password:</label>
+        <input type="password">
+        <label for="Age"> Age:</label>
+        <input type="number">
+        <label for="date"> date:</label>
+        <input type="date">
+        <label> Gender:</label>
+        <input type="radio" id="male" name="Gender">
+        <label for="male"> male</label>
+        <input type="radio" id="female" name="Gender">
+        <label for="female"> female</label>
+        <label> what languages do you no </label>
+        <input type="checkbox " id="html" name="languages[]" value="html">
+        <label for="html">HTML</label>
+        <input type="checkbox" id="css" name="languages[]" value="CSS">
+        <label for="css">CSS</label>
+        <input type="checkbox" id="javascript" name="languages[]" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+        <label for="country"> country</label>
+        <select id="country" name="country"> 
+            <option>Eygpt</option>
+            <option>china</option>
+        </select>
+        <label for="file">file</label>
+        <input type="file">
+        <label for="message"> message</label>
+        <textarea name="message"></textarea>
+        <button type="submit"> submit</button>
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+</html>
